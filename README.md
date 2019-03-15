@@ -1,4 +1,17 @@
-# boilerplate-vue
+# Vue Boilerplate
+
+## Docker
+If you are using docker-compose, you can prepend all commands with `docker-compose run --rm frontend`. example:
+```
+docker-compose run --rm frontend npm ci
+```
+
+### Compiles and hot-reloads for development
+```
+docker-compose up -d
+```
+Site will be available on `http://localhost:8080`
+
 
 ## Project setup
 ```
