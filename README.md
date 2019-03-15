@@ -15,7 +15,7 @@ Site will be available on `http://localhost:8080`
 
 ## Project setup
 ```
-npm install
+npm ci
 ```
 
 ### Compiles and hot-reloads for development
