@@ -37,7 +37,10 @@
       "plugin:vue/essential",
       "@vue/standard"
     ],
-    "rules": {},
+    "rules": {
+      "semi": [2, "always"],
+      "indent": ["error", 4]
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
