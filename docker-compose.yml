@@ -1,0 +1,10 @@
+version: '3'
+services:
+  frontend:
+    image: node:11-slim
+    working_dir: /code
+    command: npm run serve
+    ports:
+      - 8080:8080
+    volumes:
+      - ./:/code:cached
